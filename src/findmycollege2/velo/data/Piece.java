@@ -1,10 +1,12 @@
 package findmycollege2.velo.data;
 
+import java.io.Serializable;
+
 // TODO: Auto-generated Javadoc
 /**
  * The Class Piece.
  */
-public class Piece {
+public class Piece implements Serializable{
 
 	/** The data type. */
 	private DataType dataType;

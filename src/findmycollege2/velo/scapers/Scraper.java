@@ -20,7 +20,7 @@ public class Scraper {
 	public HtmlPage scrape(String uri) {
 		try {
 			return this.client.getPage(uri);
-		} catch (FailingHttpStatusCodeException | IOException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
