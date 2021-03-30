@@ -62,14 +62,19 @@ public class ICUScraper extends PageScraper {
 						"/html/body/div[3]/div/div/div/div[2]/table/tbody/tr[contains(.,'Study Abroad')]/td"),
 				new Element(DataType.DISTANCE_LEARNING,
 						"/html/body/div[3]/div/div/div/div[2]/table/tbody/tr[contains(.,'Distance Learning')]/td") };
-
-		String[] cc = { "CZ", "US", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ",
+/*
+ * 
+ * DONE
+ * 
+ * "CZ", "US", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ",
 				"BS", "BH", "BD", "BB", "BY", "BE", "BZ", "BJ", "BM", "BT", "BO", "BQ", "BA", "BW", "BV", "BR", "IO",
 				"UM", "VG", "VI", "BN", "BG", "BF", "BI", "KH", "CM", "CA", "CV", "KY", "CF", "TD", "CL", "CN", "CX",
 				"CC", "CO", "KM", "CG", "CD", "CK", "CR", "HR", "CU", "CW", "CY", "AX", "DK", "DJ", "DM", "DO", "EC",
 				"EG", "SV", "GQ", "ER", "EE", "ET", "FK", "FO", "FJ", "FI", "FR", "GF", "PF", "TF", "GA", "GM", "GE",
 				"DE", "GH", "GI", "GR", "GL", "GD", "GP", "GU", "GT", "GG", "GN", "GW", "GY", "HT", "HM", "VA", "HN",
-				"HK", "HU", "IS", "IN", "ID", "CI", "IR", "IQ", "IE", "IM", "IL", "IT", "JM", "JP", "JE", "JO", "KZ",
+				"HK", "HU", "IS",
+ */
+		String[] cc = {  "IN", "ID", "CI", "IR", "IQ", "IE", "IM", "IL", "IT", "JM", "JP", "JE", "JO", "KZ",
 				"KE", "KI", "KW", "KG", "LA", "LV", "LB", "LS", "LR", "LY", "LI", "LT", "LU", "MO", "MK", "MG", "MW",
 				"MY", "MV", "ML", "MT", "MH", "MQ", "MR", "MU", "YT", "MX", "FM", "MD", "MC", "MN", "ME", "MS", "MA",
 				"MZ", "MM", "NA", "NR", "NP", "NL", "NC", "NZ", "NI", "NE", "NG", "NU", "NF", "KP", "MP", "NO", "OM",
